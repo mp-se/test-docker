@@ -1,4 +1,5 @@
-FROM openjdk:11.0.8-jdk-slim
+#FROM openjdk:11.0.8-jdk-slim
+FROM openjdk:11-jdk-slim
 
 COPY container-entrypoint.sh /opt/container-entrypoint.sh
 
