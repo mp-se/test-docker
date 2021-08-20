@@ -1,6 +1,7 @@
 #FROM openjdk:11.0.8-jdk-slim
 #FROM openjdk:11-jdk-slim
-FROM openjdk:11-jre-slim
+#FROM openjdk:11-jre-slim
+FROM debian:buster-slim
 
 COPY container-entrypoint.sh /opt/container-entrypoint.sh
 
