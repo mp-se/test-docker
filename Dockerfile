@@ -3,6 +3,9 @@ FROM openjdk:11-jdk-slim
 #FROM openjdk:11-jre-slim
 #FROM debian:buster-slim
 
+RUN apt-get update
+RUN apt-get upgrade
+
 COPY container-entrypoint.sh /opt/container-entrypoint.sh
 
 RUN chmod -R a+rwx /opt
