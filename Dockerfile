@@ -1,10 +1,10 @@
 #FROM openjdk:11.0.8-jdk-slim
-FROM openjdk:11-jdk-slim
-#FROM openjdk:11-jre-slim
+#FROM openjdk:11-jdk-slim
+FROM openjdk:11-jre-slim
 #FROM debian:buster-slim
 
-RUN apt-get update
-RUN apt-get upgrade
+#RUN apt-get update
+#RUN apt-get upgrade
 
 COPY container-entrypoint.sh /opt/container-entrypoint.sh
 
