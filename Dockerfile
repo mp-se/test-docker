@@ -1,6 +1,7 @@
 #FROM openjdk:11.0.8-jdk-slim
+FROM openjdk:11.0.9-jdk-slim
 #FROM openjdk:11-jdk-slim
-FROM openjdk:11-jre-slim
+#FROM openjdk:11-jre-slim
 #FROM debian:buster-slim
 
 #RUN apt-get update
