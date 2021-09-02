@@ -3,7 +3,8 @@
 #FROM openjdk:11-jdk-slim
 #FROM openjdk:11-jre-slim
 #FROM debian:buster-slim
-FROM confluentin/cp-server
+FROM confluentinc/cp-server
+
 #RUN apt-get update
 #RUN apt-get upgrade
 #COPY container-entrypoint.sh /opt/container-entrypoint.sh
