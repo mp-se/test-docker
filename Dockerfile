@@ -1,9 +1,9 @@
-#FROM openjdk:11.0.8-jdk-slim
+FROM openjdk:11.0.8-jdk-slim
 #FROM openjdk:11.0.3-jdk-slim
 #FROM openjdk:11-jdk-slim
 #FROM openjdk:11-jre-slim
 #FROM debian:buster-slim
-FROM confluentinc/cp-server
+#FROM confluentinc/cp-server
 
 #RUN apt-get update
 #RUN apt-get upgrade
