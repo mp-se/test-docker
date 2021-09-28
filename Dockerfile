@@ -1,4 +1,5 @@
-FROM openjdk:11.0.12-jdk-slim
+FROM redhat-openjdk-18/openjdk18-openshift
+#FROM openjdk:11.0.12-jdk-slim
 #FROM openjdk:11.0.8-jdk-slim
 #FROM openjdk:11.0.3-jdk-slim
 #FROM openjdk:11-jdk-slim
